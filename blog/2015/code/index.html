@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://MB-29.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Matthieu Blanke's webpage
 
 
-  | Page not found
+  | a post with code
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/404.html">
+<link rel="canonical" href="/blog/2015/code/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -185,17 +185,48 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title" style="text-align: center">Page not found</h1>
-    <p class="post-description" style="text-align: center">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://MB-29.github.io/">here</a>.</p>
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in a liquid tag:</p>
+
+<p>{% highlight c++ linenos %}  <br> code code code <br> {% endhighlight %}</p>
+
+<p>The keyword <code>linenos</code> triggers display of line numbers.
+Produces something like this:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++">int main(int argc, char const \*argv[])
+{
+    string myString;
+
+    cout &lt;&lt; "input a string: ";
+    getline(cin, myString);
+    int length = myString.length();
+
+    char charArray = new char * [length];
+
+    charArray = myString;
+    for(int i = 0; i &lt; length; ++i){
+        cout &lt;&lt; charArray[i] &lt;&lt; " ";
+    }
+
+    return 0;
+}</code></pre></figure>
+
 
   </article>
+
+  
 
 </div>
 
