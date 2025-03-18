@@ -17,6 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Postdoctoral Associate in the [Courant Institute for Mathematical Sciences](https://cims.nyu.edu/dynamic/) of [New York University](https://www.nyu.edu/). I am working with [Sara Shamekh](https://sshamekh.com/) and [Pierre Gentine](https://www.eee.columbia.edu/faculty/pierre-gentine) on deep learning for climate.
+I am currently a Postdoctoral Associate in the [Courant Institute for Mathematical Sciences](https://cims.nyu.edu/dynamic/) of [New York University](https://www.nyu.edu/) and in Columbia's [LEAP center](https://leap.columbia.edu/), working with [Sara Shamekh](https://sshamekh.com/) and [Pierre Gentine](https://www.eee.columbia.edu/faculty/pierre-gentine) on deep learning for climate.
 
 You can find more information about me on [my resume](assets/pdf/resume.pdf).
