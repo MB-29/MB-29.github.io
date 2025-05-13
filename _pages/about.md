@@ -19,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a Postdoctoral Associate in the [Courant Institute for Mathematical Sciences](https://cims.nyu.edu/dynamic/) of [New York University](https://www.nyu.edu/) and in Columbia's [LEAP center](https://leap.columbia.edu/), working with [Sara Shamekh](https://sshamekh.com/) and [Pierre Gentine](https://www.eee.columbia.edu/faculty/pierre-gentine) on deep learning for climate.
 
-Before that, I did my PhD at [DI ENS](https://www.di.ens.fr/) of École Normale Supérieure and  the Inria [Argo team](https://www.di.ens.fr/argo/), under the supervision of [Marc Lelarge](https://www.di.ens.fr/~lelarge/).
+Before that, I did my PhD at École Normale Supérieure in [DI ENS](https://www.di.ens.fr/), and in the Inria [Argo team](https://www.di.ens.fr/argo/), under the supervision of [Marc Lelarge](https://www.di.ens.fr/~lelarge/).
 
 You can find more information about me on [my resume](assets/pdf/resume.pdf).
