@@ -19,7 +19,7 @@
 
         {% if forloop.last and forloop.length > 1 %}and {% endif %}
         {% if author_is_self %}
-          <em>{{ author.first }} {{ author.last }}</em>
+          {{ author.first }} {{ author.last }}
         {% elsif coauthor_url %}
           <a href="{{ coauthor_url }}">{{ author.first }} {{ author.last }}</a>
         {% else %}
@@ -30,9 +30,9 @@
     </span><br/>
 
     {% if entry.journal %}
-      <em>{{ entry.journal }}</em>,
+      {{ entry.journal }}
     {% elsif entry.booktitle %}
-      <em>{{ entry.booktitle }}</em>,
+      {{ entry.booktitle }},
     {% endif %}
     {% if entry.month %}{{ entry.month | capitalize }} {% endif %}
     {% if entry.year %}{{ entry.year }}{% endif %}
