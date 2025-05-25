@@ -445,6 +445,23 @@ footer.sticky-bottom {
           }
         }
       }
+      .compact-publication {
+        font-size: 1rem;
+        margin-bottom: 1em;
+      }
+      
+      .pub-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 0.5em;
+      }
+      
+      .pub-info {
+        flex-grow: 1;
+        line-height: 1.4;
+      }
       .pub-links {
           white-space: nowrap;
           flex-shrink: 0;
