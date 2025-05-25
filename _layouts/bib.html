@@ -39,6 +39,13 @@
   </p>
     
     <div class="pub-links">
+      {% if entry.html %}
+        {% if entry.html contains '://' %}
+          <a href="{{ entry.html }}" class="btn">HTML</a>
+        {% else %}
+          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn">HTML</a>
+        {% endif %}
+      {% endif %}
       {% if entry.arxiv %}
         <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn">arXiv</a>
       {% endif %}
