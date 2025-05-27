@@ -16,7 +16,6 @@
             {% endif %}
           {% endfor %}
         {% endif %}
-
         {% if forloop.last and forloop.length > 1 %}and {% endif %}
         {% if author_is_self %}
           {{ author.first }} {{ author.last }}
