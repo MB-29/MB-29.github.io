@@ -7,10 +7,7 @@ description:
 profile:
   align: right
   image: photo.jpg
-  address: >
-    <p>NYU Courant Institute </p>
-    <p>251 Mercer Street New York, N.Y. 10012-1185</p>
-    <p>Office 1105B</p>
+  address:
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
