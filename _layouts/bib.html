@@ -4,7 +4,7 @@
   <div class="pub-container">
   <p class="publication-text">
     <strong>{{ entry.title }}</strong><br/>
-   <div class="author">
+   <span class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
           {% if author.last == site.scholar.last_name%}
@@ -52,7 +52,7 @@
             {% endunless %}
           {% endif %}
         {% endfor %}
-      </div>
+      </span>
     <br/>
 
     {% if entry.journal %}
