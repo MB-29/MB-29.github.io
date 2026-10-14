@@ -6,7 +6,7 @@ title: "Research webpage of Matthieu Blanke" # the website title (if blank, full
 first_name: Matthieu
 middle_name:
 last_name: Blanke
-email: matthieu.blanke@nyu.edu
+email: matthieu.blanke@lmd.ipsl.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -68,7 +68,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: false
 
 contact_note: >
-  You can reach me on Twitter or by email at matthieu dot blanke at nyu dot edu.
+  You can reach me on Twitter or by email at matthieu dot blanke at ens dot fr.
 
 
 
